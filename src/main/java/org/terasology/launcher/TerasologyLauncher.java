@@ -90,8 +90,8 @@ public final class TerasologyLauncher extends Application {
 
     @Override
     public void start(final Stage initialStage) {
-        logger.info("TerasologyLauncher is starting");
         logSystemInformation();
+        logger.info("TerasologyLauncher is starting");
 
         initProxy();
         initLanguage();
